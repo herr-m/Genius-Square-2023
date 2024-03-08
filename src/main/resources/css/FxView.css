@@ -1,0 +1,44 @@
+.die Rectangle {
+    -fx-fill: rgb(255, 255, 240);
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+    -fx-stroke-type: inside;
+}
+.die Text {
+    -fx-font-size: 25 px ;
+}
+
+.boardCell {
+    -fx-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+    -fx-stroke-type: inside;
+}
+.hintCell {
+    -fx-fill: transparent;
+    -fx-opacity: 0.5;
+}
+
+.boardLabel Text {
+    -fx-font-size: 25 px ;
+    -fx-fill: white;
+}
+
+.piecesPane {
+    -fx-spacing: 10px;
+}
+.piecesPane HBox {
+    -fx-spacing: 10px;
+}
+.piecesPane HBox VBox {
+    -fx-spacing: 10px;
+}
+
+.mainBox {
+    -fx-hgap: 15px;
+    -fx-vgap: 15px;
+}
+
+.text-20 {
+    -fx-font-size: 20px;
+}
